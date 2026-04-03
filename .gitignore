@@ -1,0 +1,7 @@
+# Ignore all data in these folders
+data/raw/*
+data/processed/*
+
+# But don't ignore the .gitkeep files so the folders exist on GitHub
+!data/raw/.gitkeep
+!data/processed/.gitkeep
