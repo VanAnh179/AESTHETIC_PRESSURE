@@ -75,7 +75,7 @@ pip install -r requirements.txt
 ```
 
 ## 📊 Quản lý dự án
-link notion quản lý dự án: https://www.notion.so/AIT2004-AESTHETIC_PRESSURE_Project-337001c683f180769b8efc89ef4d5f0f
+link notion quản lý dự án: [AESTHETIC PRESSURE](https://www.notion.so/AESTHETIC-PRESSURE-337001c683f180769b8efc89ef4d5f0f?source=copy_link)
 * [x] GĐ 1: Thu thập dữ liệu (In Progress)
 * [ ] GĐ 2: Trích xuất đặc trưng (Pending)
 * [ ] GĐ 3: NLP & Merging (Pending)
