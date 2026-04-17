@@ -1,7 +1,77 @@
-# Ignore all data in these folders
-data/raw/*
-data/processed/*
+# Environment variables & credentials
+.env
+.env.local
+.env.*.local
 
-# But don't ignore the .gitkeep files so the folders exist on GitHub
-!data/raw/.gitkeep
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data directories
+# Keep only CSV files directly under each source folder: data/raw/<source>/*.csv
+# Ignore all other files/folders under each source folder (e.g. post/image folders)
+data/raw/*/*
+!data/raw/*/*.csv
+!data/raw/*/.gitkeep
+
+data/processed/*
 !data/processed/.gitkeep
+data/**/*.json
+
+# Reports (but preserve structure)
+reports/documents/*
+reports/essay/*
+!reports/documents/.gitkeep
+!reports/essay/.gitkeep
+reports/figures/*.png
+reports/figures/*.jpg
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+.DS_Store
