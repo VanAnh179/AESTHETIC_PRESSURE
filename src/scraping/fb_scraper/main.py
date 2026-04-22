@@ -102,13 +102,15 @@ PROXIES = {'http': PROXY, 'https': PROXY} if PROXY else None
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'data', 'raw')
 SAVE_IMAGES = True
 
-# ============= DANH Sﾃ，H FANPAGE C蘯ｦN Cﾃ =============
+# ============= DANH SÁCH FANPAGE =============
 # Format: Full URL t盻ｫ Facebook
 FANPAGES_FILE = os.path.join(SCRIPT_DIR, 'fanpages.json')
 
-POST_LIMIT_PER_FANPAGE = 5  # Ch盻・cﾃ 3 posts per page
-MIN_COMMENT_COUNT = 50  # Ch盻・l蘯･y bﾃi cﾃｳ trﾃｪn 50 comment.
-COMMENT_SAMPLE_LIMIT = 60  # Ch盻・l蘯･y ﾄ妥ｺng 60 comment ﾄ黛ｺｧu theo m蘯ｷc ﾄ黛ｻ杵h.
+POST_LIMIT_PER_FANPAGE = 5 
+MIN_COMMENT_COUNT = 50  # Chỉ lấy post có ít nhất 50 comment.
+COMMENT_SAMPLE_LIMIT = 60  # Chỉ lấy đúng 60 comment đầu theo mặc định.
+MAX_TIMELINE_PAGES_PER_FANPAGE = int(os.getenv('MAX_TIMELINE_PAGES_PER_FANPAGE', '120'))
+MAX_CONSECUTIVE_PAGES_WITHOUT_NEW_POST = int(os.getenv('MAX_CONSECUTIVE_PAGES_WITHOUT_NEW_POST', '30'))
 REFERENCE_DATE_UTC = datetime(2026, 4, 21, tzinfo=timezone.utc)
 RECENT_POST_CUTOFF_UTC = REFERENCE_DATE_UTC - timedelta(days=7)
 
@@ -166,11 +168,9 @@ def _normalize_timestamp(value):
     else:
         return None
 
-    # N蘯ｿu lﾃ milliseconds thﾃｬ ﾄ黛ｻ品 v盻・seconds.
     if timestamp > 10_000_000_000:
         timestamp = timestamp // 1000
 
-    # Ch盻・nh蘯ｭn m盻祖 th盻拱 gian h盻｣p l盻・trong kho蘯｣ng nﾄノ 2000-2050.
     if timestamp < 946684800 or timestamp > 2524608000:
         return None
 
@@ -1259,11 +1259,29 @@ def fetch_posts(user_id, page_name, limit=3, page_url=None):
     """Chỉ lấy posts có ảnh"""
     all_posts = []
     cursor = None
+    prev_cursor = None
     page_num = 1
+    consecutive_pages_without_new_post = 0
     
     print(f"  🔍 Lấy posts từ {page_name} (max {limit} posts có ảnh)...")
     
     while len(all_posts) < limit:
+        if page_num > MAX_TIMELINE_PAGES_PER_FANPAGE:
+            print(
+                f"    ⚠️ Dừng {page_name}: đã quét tới trang {page_num - 1} "
+                f"(MAX_TIMELINE_PAGES_PER_FANPAGE={MAX_TIMELINE_PAGES_PER_FANPAGE})"
+            )
+            break
+
+        if consecutive_pages_without_new_post >= MAX_CONSECUTIVE_PAGES_WITHOUT_NEW_POST:
+            print(
+                f"    ⚠️ Dừng {page_name}: {consecutive_pages_without_new_post} trang liên tiếp "
+                "không thêm post hợp lệ"
+            )
+            break
+
+        posts_before_page = len(all_posts)
+
         variables = {
             "count": 5,
             "cursor": cursor,
@@ -1350,7 +1368,7 @@ def fetch_posts(user_id, page_name, limit=3, page_url=None):
             if is_recent:
                 post_date_text = post_dt.strftime('%Y-%m-%d') if post_dt else "unknown"
                 print(
-                    f"      竊ｷ Skip post {post_id}: m盻嬖 hﾆ｡n m盻祖 "
+                    f" Skip post {post_id}: đăng gần đây, sau ngày "
                     f"{RECENT_POST_CUTOFF_UTC.strftime('%Y-%m-%d')} "
                     f"({post_date_text})"
                 )
@@ -1370,14 +1388,22 @@ def fetch_posts(user_id, page_name, limit=3, page_url=None):
                 continue
 
             reaction_metrics = fetch_reactions_breakdown(feedback_id, COOKIES)
-            
-            message = (
+
+            story_block = (
                 node.get("comet_sections", {})
                 .get("content", {})
                 .get("story", {})
-                .get("message", {})
-                .get("text")
             )
+            if not isinstance(story_block, dict):
+                story_block = {}
+
+            message_block = story_block.get("message")
+            if isinstance(message_block, dict):
+                message = message_block.get("text")
+            elif isinstance(message_block, str):
+                message = message_block
+            else:
+                message = None
 
             page_slug = _extract_page_slug_from_node(node, page_url)
             permalink = f"https://www.facebook.com/{page_slug}/posts/{post_id}" if page_slug else None
@@ -1405,7 +1431,7 @@ def fetch_posts(user_id, page_name, limit=3, page_url=None):
             )
 
             if comment_total <= MIN_COMMENT_COUNT:
-                print(f"      竊ｷ Skip post {post_id}: comment_count={comment_total} (<= {MIN_COMMENT_COUNT})")
+                print(f" Skip post {post_id}: comment_count={comment_total} (<= {MIN_COMMENT_COUNT})")
                 continue
 
             # CH盻・L蘯､Y POSTS Cﾃ・蘯｢NH
@@ -1445,6 +1471,12 @@ def fetch_posts(user_id, page_name, limit=3, page_url=None):
             
             all_posts.append(post)
             time.sleep(1)
+
+        posts_added_this_page = len(all_posts) - posts_before_page
+        if posts_added_this_page > 0:
+            consecutive_pages_without_new_post = 0
+        else:
+            consecutive_pages_without_new_post += 1
         
         # Get next cursor
         page_info = {}
@@ -1461,6 +1493,12 @@ def fetch_posts(user_id, page_name, limit=3, page_url=None):
         
         if not cursor:
             break
+
+        if cursor == prev_cursor:
+            print("    ⚠️ Cursor không thay đổi, dừng để tránh lặp vô hạn")
+            break
+
+        prev_cursor = cursor
         
         time.sleep(1)
         page_num += 1
