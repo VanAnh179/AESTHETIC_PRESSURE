@@ -1,0 +1,240 @@
+{
+  "campaigns": [
+    {
+      "id": "lovito_barbie_2026",
+      "brand": "Lovito",
+      "image" : "https://down-vn.img.susercontent.com/file/vn-11134258-81ztc-mn9rysjbdm2s2f@resize_w1920_nl.webp",
+      "collection_url": "https://shopee.vn/m/Barbie-Lovito",
+      "campaign_name": "Banner Barbie Collection"
+    },
+    {
+      "id": "lovito_summer_2026",
+      "brand": "Lovito",
+      "image" : "https://down-bs-vn.img.susercontent.com/cn-11134210-820l4-mmfkk9jwh3i9e4.webp",
+      "collection_url": "https://shopee.vn/lovito.vn?page=0#product_list",
+      "campaign_name": "Banner Mùa Hè"
+    },
+    {
+      "id": "cocoon_come_to_french",
+      "brand": "Cocoon",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn5lrofogyrped.webp",
+      "collection_url": "https://shopee.vn/cocoonvietnamofficial",
+      "campaign_name": "Cocoon with French"
+    },
+    {
+    "id": "Paulas_choice",
+      "brand": "Paulas_choice",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mna94ecntgjl2c.webp",
+      "collection_url": "https://shopee.vn/paulaschoice_vietnam",
+      "campaign_name": "Paulas Choice"
+    },
+    {
+    "id": "Yody",
+      "brand": "Yody",
+      "image" : "https://down-zl-vn.img.susercontent.com/vn-11134210-81ztc-mn14ozd6nimd9b.webp",
+      "collection_url": "https://shopee.vn/yody.official?shopCollection=269398262#product_list",
+      "campaign_name": "Yody"
+    },
+    {
+    "id": "Bemine",
+      "brand": "Bemine",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn1668oibpj90e.webp",
+      "collection_url": "https://shopee.vn/bemine_shop",
+      "campaign_name": "Bemine"
+    },
+    {
+    "id": "Big size Cô nhỏ",
+      "brand": "Big size Cô nhỏ",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-7ra0g-m84nsfegcqyq05.webp",
+      "collection_url": "https://shopee.vn/conho.bigsize",
+      "campaign_name": "Big size Cô nhỏ"
+    },
+    {
+    "id": "4lova4eva",
+      "brand": "4lova4eva",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn1ag94xxxc2e9.webp",
+      "collection_url": "https://shopee.vn/4lova4eva",
+      "campaign_name": "4lova4eva"
+    },
+    {
+    "id": "Libe",
+      "brand": "Libe",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn6jlsxvmzgme7.webp",
+      "collection_url": "https://shopee.vn/libe",
+      "campaign_name": "Libe"
+    },
+    {
+    "id": "Bioderman",
+      "brand": "Bioderman",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmzvx9j212bo44.webp",
+      "collection_url": "https://shopee.vn/bioderma_officialstore",
+      "campaign_name": "Bioderman"
+    },
+    {
+      "id": "Colgate",
+      "brand": "Colgate",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mndrbv0l8kqq3b.webp",
+      "collection_url": "https://shopee.vn/colgate.palmolive_vietnam",
+      "campaign_name": "Colgate Super Brand Day"
+    },
+    {
+      "id": "Merzy",
+      "brand": "Merzy",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn0z9jhmb1tsf8.webp",
+      "collection_url": "https://shopee.vn/merzy_official"
+    },
+    {
+      "id": "Apple_Macbook_Air_Neon",
+      "brand": "Apple",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mms9wpgh94i0d2.webp",
+      "collection_url": "https://shopee.vn/apple_flagship_store?shopCollection=269593694#product_list",
+      "campaign_name": "Apple MacBook Air Neon"
+    },
+    {
+      "id": "Apple_Macbook_Air",
+      "brand": "Apple",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mms9wpghaj2gb3.webp",
+      "collection_url": "https://shopee.vn/apple_flagship_store?shopCollection=269594671#product_list",
+      "campaign_name": "Apple MacBook Air"
+    },
+    {
+      "id": "L'Oreal_Summer",
+      "brand": "L'Oreal",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmlbq2mgsef827.webp",
+      "collection_url": "https://shopee.vn/lorealparis_officialstore?shopCollection=104451446#product_list",
+      "campaign_name": "L'Oreal Summer"
+    },
+    {
+      "id": "beauty_maybelline_01",
+      "brand": "Maybelline New York",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/maybelline_officialstore",
+      "campaign_name": "Maybelline Super Stay"
+    },
+    {
+      "id": "beauty_larocheposay_01",
+      "brand": "La Roche-Posay",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/larocheposay_officialstore",
+      "campaign_name": "La Roche-Posay Dược Mỹ Phẩm"
+    },
+    {
+      "id": "beauty_cocoon_01",
+      "brand": "Cocoon Vietnam",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/cocoonvietnamofficial",
+      "campaign_name": "Cocoon Thuần Chay"
+    },
+    {
+      "id": "beauty_paulaschoice_01",
+      "brand": "Paula's Choice",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/paulaschoice_officialstore",
+      "campaign_name": "Paula's Choice BHA"
+    },
+    {
+      "id": "beauty_innisfree_01",
+      "brand": "Innisfree Vietnam",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/innisfreevietnam_officialstore",
+      "campaign_name": "Innisfree Green Tea"
+    },
+    {
+      "id": "fashion_adidas_01",
+      "brand": "Adidas Official",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/adidasofficialstore",
+      "campaign_name": "Adidas Mua 2 Giảm 50%"
+    },
+    {
+      "id": "fashion_puma_01",
+      "brand": "Puma Official Store",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/puma.official",
+      "campaign_name": "Puma Sportswear",
+      "campaign_date": "2026-05-01",
+      "start_date": "2026-04-15",
+      "output_prefix": "puma_sport"
+    },
+    {
+      "id": "fashion_coolmate_01",
+      "brand": "Coolmate",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/coolmate.vn",
+      "campaign_name": "Coolmate Tủ Đồ Nam Giới",
+      "campaign_date": "2026-05-01",
+      "start_date": "2026-04-15",
+      "output_prefix": "coolmate_menswear"
+    },
+    {
+      "id": "fashion_bitis_01",
+      "brand": "Biti's Official Store",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/bitisvn",
+      "campaign_name": "Biti's Hunter Mới",
+      "campaign_date": "2026-05-01",
+      "start_date": "2026-04-15",
+      "output_prefix": "bitis_hunter"
+    },
+    {
+      "id": "fashion_juno_01",
+      "brand": "Juno Official",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/juno.official",
+      "campaign_name": "Juno Túi Xách & Giày",
+      "campaign_date": "2026-05-01",
+      "start_date": "2026-04-15",
+      "output_prefix": "juno_bags"
+    },
+    {
+      "id": "fmcg_unilever_01",
+      "brand": "Unilever Chăm Sóc Sức Khỏe",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/unilever_vn",
+      "campaign_name": "Unilever Sale Giữa Tháng",
+      "campaign_date": "2026-05-01",
+      "start_date": "2026-04-15",
+      "output_prefix": "unilever_sale"
+    },
+    {
+      "id": "fmcg_pg_01",
+      "brand": "P&G Official Store",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/p_g_official",
+      "campaign_name": "P&G Chăm Sóc Gia Đình",
+      "campaign_date": "2026-05-01",
+      "start_date": "2026-04-15",
+      "output_prefix": "pg_family"
+    },
+    {
+      "id": "fmcg_nestle_01",
+      "brand": "Nestlé Official Store",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/nestlevn",
+      "campaign_name": "Nestlé Dinh Dưỡng",
+      "campaign_date": "2026-05-01",
+      "start_date": "2026-04-15",
+      "output_prefix": "nestle_nutrition"
+    },
+    {
+      "id": "fmcg_vinamilk_01",
+      "brand": "Vinamilk eShop",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/vinamilk_eshop",
+      "campaign_name": "Vinamilk Sữa Khỏe",
+      "campaign_date": "2026-05-01",
+      "start_date": "2026-04-15",
+      "output_prefix": "vinamilk_milk"
+    },
+    {
+      "id": "home_locknlock_01",
+      "brand": "Lock&Lock Official Store",
+      "image": "Dán_link_ảnh_banner_vào_đây",
+      "collection_url": "https://shopee.vn/locknlockvn",
+      "campaign_name": "Lock&Lock Nhà Cửa Gọn Gàng",
+      "campaign_date": "2026-05-01",
+      "start_date": "2026-04-15",
+      "output_prefix": "locknlock_home"
+    }
+  ]
+}
