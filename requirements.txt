@@ -1,2 +1,13 @@
-requests>=2.28.0
-python-dotenv>=0.19.0
+
+undetected-chromedriver==3.5.5   
+selenium==4.27.1               
+beautifulsoup4==4.12.3          
+lxml==5.3.0                     
+pandas==2.2.3                    
+openpyxl==3.1.5                 
+
+# ── NOTE ───────────────────────────────────────────────────────────────────────
+# Yêu cầu Python >= 3.10 (dùng cú pháp "X | None" type hint)
+# Yêu cầu Google Chrome đã cài sẵn trên máy 
+# Cài đặt:
+#   pip install -r requirements.txt
