@@ -208,25 +208,19 @@ def get_next_image_idx(shopee_dir: Path) -> int:
     return max_idx + 1 if max_idx > 0 else 1
 
 
-def flush_csv(pending_banner: list, pending_daily: list, shopee_dir: Path):
-    """Ghi append 2 danh sách dataframe vào 2 file CSV, không ghi đè dữ liệu cũ."""
+def flush_csv(pending_banner: list, shopee_dir: Path):
+    """Ghi append banner_summary.csv, không ghi đè dữ liệu cũ."""
     if not pending_banner:
         print('  ⏭  Batch này không có dữ liệu mới để ghi CSV.')
         return
 
     csv_banner = shopee_dir / 'banner_summary.csv'
-    csv_daily  = shopee_dir / 'daily_summary.csv'
 
     pd.concat(pending_banner, ignore_index=True).to_csv(
         csv_banner, mode='a', index=False,
         header=not csv_banner.exists(), encoding='utf-8-sig'
     )
-    if pending_daily:
-        pd.concat(pending_daily, ignore_index=True).to_csv(
-            csv_daily, mode='a', index=False,
-            header=not csv_daily.exists(), encoding='utf-8-sig'
-        )
-    print(f'  💾 Đã append {len(pending_banner)} banner vào banner_summary.csv & daily_summary.csv')
+    print(f'  💾 Đã append {len(pending_banner)} banner vào banner_summary.csv')
 
 
 def main():
@@ -268,7 +262,6 @@ def main():
     wait_for_manual_login(driver)
 
     pending_banner: list = []
-    pending_daily: list = []
     processed_new = 0
 
     for offset, camp in enumerate(campaigns):
@@ -309,7 +302,6 @@ def main():
             print('  ⚠️  Không có URL ảnh banner trong config.')
 
         banner_row = None
-        daily_rows = None
         stats = {
             'total_review': 0,
             'avg_stars': 0,
@@ -320,12 +312,10 @@ def main():
         try:
             result = run_shopee_extraction(driver, camp, image_id, str(SHOPEE_DIR))
             if result is not None:
-                banner_row, daily_rows, stats = result
+                banner_row, stats = result
                 if stats.get('total_review', 0) > 0:
                     if banner_row is not None:
                         pending_banner.append(banner_row)
-                    if daily_rows is not None and not daily_rows.empty:
-                        pending_daily.append(daily_rows)
                     scrape_status = 'done'
                 else:
                     print('  ⚠️  Không thu được review hợp lệ -> không append CSV cho banner này.')
@@ -356,9 +346,8 @@ def main():
             print(f'{"─"*55}')
             print(f'⏸  CHECKPOINT: đã xử lý {processed_new}/{remaining_total} banner mới.')
             print(f'{"─"*55}')
-            flush_csv(pending_banner, pending_daily, SHOPEE_DIR)
+            flush_csv(pending_banner, SHOPEE_DIR)
             pending_banner.clear()
-            pending_daily.clear()
             if not is_last_new:
                 print()
 

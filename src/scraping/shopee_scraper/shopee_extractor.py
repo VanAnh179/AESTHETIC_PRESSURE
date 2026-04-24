@@ -563,7 +563,7 @@ def _classify_url(url: str) -> str:
 
 def _build_output_frames(image_id: str, brand: str, df: pd.DataFrame,
                          raw_comment_str: str):
-    """Chuẩn hoá output cho main.py, kể cả khi banner có 0 review."""
+    """Chuẩn hoá output cho main.py, chỉ còn banner_summary + stats."""
     total_review = len(df)
     avg_stars = round(df['stars'].mean(), 2) if total_review > 0 else 0
 
@@ -576,37 +576,12 @@ def _build_output_frames(image_id: str, brand: str, df: pd.DataFrame,
         'raw_comment' : raw_comment_str,
     }])[['image_id', 'source', 'shop', 'total_review', 'avg_stars', 'raw_comment']]
 
-    if total_review == 0:
-        daily_rows = pd.DataFrame(columns=[
-            'date', 'total_day_review', 'avg_day_stars',
-            'total_5_stars', 'total_4_stars', 'total_3_stars',
-            'total_2_stars', 'total_1_stars',
-        ])
-    else:
-        daily_rows = (
-            df.dropna(subset=['date'])
-              .groupby(df['date'].dt.strftime('%Y-%m-%d'))
-              .agg(
-                  total_day_review=('stars', 'count'),
-                  avg_day_stars=('stars', lambda x: round(x.mean(), 2)),
-                  total_5_stars=('stars', lambda x: (x == 5).sum()),
-                  total_4_stars=('stars', lambda x: (x == 4).sum()),
-                  total_3_stars=('stars', lambda x: (x == 3).sum()),
-                  total_2_stars=('stars', lambda x: (x == 2).sum()),
-                  total_1_stars=('stars', lambda x: (x == 1).sum()),
-              )
-              .reset_index()
-              .rename(columns={'date': 'date'})
-        )[['date', 'total_day_review', 'avg_day_stars',
-           'total_5_stars', 'total_4_stars', 'total_3_stars',
-           'total_2_stars', 'total_1_stars']]
-
     stats = {
         'total_review': total_review,
         'avg_stars'   : avg_stars,
         'raw_comment' : raw_comment_str,
     }
-    return banner_row, daily_rows, stats
+    return banner_row, stats
 
 
 # ── Main extraction function ───────────────────────────────────────────────────
@@ -710,11 +685,11 @@ def run_shopee_extraction(driver, camp: dict, image_id: str, data_dir: str):
 
     raw_comment_str = ' | '.join(banner_raw_comments)
 
-    banner_row, daily_rows, stats = _build_output_frames(
+    banner_row, stats = _build_output_frames(
         image_id, brand, df, raw_comment_str
     )
 
     print(f"✅ [{brand}] ({image_id}) scraped | Reviews: {len(df)} | SP quét: {scanned} | SP ≥{MIN_COMMENTS} cmt: {qualified_count}")
 
-    # Trả về dataframe + stats để main.py ghi JSON và gom batch CSV
-    return banner_row, daily_rows, stats
+    # Trả về banner_summary + stats để main.py ghi JSON và gom batch CSV
+    return banner_row, stats
