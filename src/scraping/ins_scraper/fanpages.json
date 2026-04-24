@@ -1,3 +1,606 @@
 [
-    { "url": "https://www.instagram.com/cocacola/", "name": "CocaCola" }
+    {
+        "name": "Poster Jam",
+        "url": "https://www.instagram.com/poster.jam/"
+    },
+    {
+        "name": "Blank Poster",
+        "url": "https://www.instagram.com/blank_poster/"
+    },
+    {
+        "name": "Poster Design Community",
+        "url": "https://www.instagram.com/posterdesigncommunity/"
+    },
+    {
+        "name": "AIGA Eye on Design",
+        "url": "https://www.instagram.com/aigaeyeondesign/"
+    },
+    {
+        "name": "It's Nice That",
+        "url": "https://www.instagram.com/itsnicethat/"
+    },
+    {
+        "name": "Swiss Posters",
+        "url": "https://www.instagram.com/swissposters/"
+    },
+    {
+        "name": "Typosters",
+        "url": "https://www.instagram.com/typosters/"
+    },
+    {
+        "name": "Certain Magazine",
+        "url": "https://www.instagram.com/certainmagazine/"
+    },
+    {
+        "name": "Pentagram",
+        "url": "https://www.instagram.com/pentagramdesign/"
+    },
+    {
+        "name": "Snask",
+        "url": "https://www.instagram.com/snasksthlm/"
+    },
+    {
+        "name": "Studio Dumbar",
+        "url": "https://www.instagram.com/studiodumbar/"
+    },
+    {
+        "name": "Gretel",
+        "url": "https://www.instagram.com/gretelnyc/"
+    },
+    {
+        "name": "DixonBaxi",
+        "url": "https://www.instagram.com/dixonbaxi/"
+    },
+    {
+        "name": "Oatly",
+        "url": "https://www.instagram.com/oatly/"
+    },
+    {
+        "name": "Mailchimp",
+        "url": "https://www.instagram.com/mailchimp/"
+    },
+    {
+        "name": "BVD",
+        "url": "https://www.instagram.com/bvd/"
+    },
+    {
+        "name": "DNCO",
+        "url": "https://www.instagram.com/dnco/"
+    },
+    {
+        "name": "Design Anywhere",
+        "url": "https://www.instagram.com/designanywhere/"
+    },
+    {
+        "name": "The Brand Identity",
+        "url": "https://www.instagram.com/thebrandidentity/"
+    },
+    {
+        "name": "Type Gang",
+        "url": "https://www.instagram.com/type.gang/"
+    },
+    {
+        "name": "Goodtype",
+        "url": "https://www.instagram.com/goodtype/"
+    },
+    {
+        "name": "Awwwards",
+        "url": "https://www.instagram.com/awwwards/"
+    },
+    {
+        "name": "Dribbble",
+        "url": "https://www.instagram.com/dribbble/"
+    },
+    {
+        "name": "Behance",
+        "url": "https://www.instagram.com/behance/"
+    },
+    {
+        "name": "The Dieline",
+        "url": "https://www.instagram.com/thedieline/"
+    },
+    {
+        "name": "Visual Graphc",
+        "url": "https://www.instagram.com/visualgraphc/"
+    },
+    {
+        "name": "Graphic Design Central",
+        "url": "https://www.instagram.com/graphicdesigncentral/"
+    },
+    {
+        "name": "Simply Cool Design",
+        "url": "https://www.instagram.com/simply.cool.design/"
+    },
+    {
+        "name": "Poster Reposter (Alternative)",
+        "url": "https://www.instagram.com/poster.reposter/"
+    },
+    {
+        "name": "Poster Union",
+        "url": "https://www.instagram.com/posterunion/"
+    },
+    {
+        "name": "365 Type",
+        "url": "https://www.instagram.com/365type/"
+    },
+    {
+        "name": "Type01",
+        "url": "https://www.instagram.com/type01_/"
+    },
+    {
+        "name": "Typespire",
+        "url": "https://www.instagram.com/typespire/"
+    },
+    {
+        "name": "Beeple",
+        "url": "https://www.instagram.com/beeple_crap/"
+    },
+    {
+        "name": "Graphic Design UI",
+        "url": "https://www.instagram.com/graphicdesignui/"
+    },
+    {
+        "name": "Xuxoe",
+        "url": "https://www.instagram.com/xuxoe/"
+    },
+    {
+        "name": "MVS Design",
+        "url": "https://www.instagram.com/mvsdesign/"
+    },
+    {
+        "name": "Made by James",
+        "url": "https://www.instagram.com/made.by.james/"
+    },
+    {
+        "name": "Chris Do",
+        "url": "https://www.instagram.com/thechrisdo/"
+    },
+    {
+        "name": "Abduzeedo",
+        "url": "https://www.instagram.com/abduzeedo/"
+    },
+    {
+        "name": "Slide Design",
+        "url": "https://www.instagram.com/slidedesign/"
+    },
+    {
+        "name": "Logo Inspirations",
+        "url": "https://www.instagram.com/logoinspirations/"
+    },
+    {
+        "name": "Branding Board",
+        "url": "https://www.instagram.com/branding.board/"
+    },
+    {
+        "name": "Designarf",
+        "url": "https://www.instagram.com/designarf/"
+    },
+    {
+        "name": "Creative Review",
+        "url": "https://www.instagram.com/creativereview/"
+    },
+    {
+        "name": "Juxtapoz Magazine",
+        "url": "https://www.instagram.com/juxtapozmag/"
+    },
+    {
+        "name": "Nike",
+        "url": "https://www.instagram.com/nike/"
+    },
+    {
+        "name": "Vans",
+        "url": "https://www.instagram.com/vans/"
+    },
+    {
+        "name": "Converse",
+        "url": "https://www.instagram.com/converse/"
+    },
+    {
+        "name": "New Balance",
+        "url": "https://www.instagram.com/newbalance/"
+    },
+    {
+        "name": "Pepsi",
+        "url": "https://www.instagram.com/pepsi/"
+    },
+    {
+        "name": "Heineken",
+        "url": "https://www.instagram.com/heineken/"
+    },
+    {
+        "name": "Adidas",
+        "url": "https://www.instagram.com/adidas/"
+    },
+    {
+        "name": "Durex",
+        "url": "https://www.instagram.com/durex/"
+    },
+    {
+        "name": "Red Bull",
+        "url": "https://www.instagram.com/redbull/"
+    },
+    {
+        "name": "Levi's",
+        "url": "https://www.instagram.com/levis/"
+    },
+    {
+        "name": "Puma",
+        "url": "https://www.instagram.com/puma/"
+    },
+    {
+        "name": "Patagonia",
+        "url": "https://www.instagram.com/patagonia/"
+    },
+    {
+        "name": "Spotify",
+        "url": "https://www.instagram.com/spotify/"
+    },
+    {
+        "name": "Apple",
+        "url": "https://www.instagram.com/apple/"
+    },
+    {
+        "name": "Netflix",
+        "url": "https://www.instagram.com/netflix/"
+    },
+    {
+        "name": "Airbnb",
+        "url": "https://www.instagram.com/airbnb/"
+    },
+    {
+        "name": "Under Armour",
+        "url": "https://www.instagram.com/underarmour/"
+    },
+    {
+        "name": "The North Face",
+        "url": "https://www.instagram.com/thenorthface/"
+    },
+    {
+        "name": "Mirza Talovic",
+        "url": "https://www.instagram.com/mirzatalovic/"
+    },
+    {
+        "name": "Le Futur",
+        "url": "https://www.instagram.com/lefutur2000/"
+    },
+    {
+        "name": "Studio Koevoet",
+        "url": "https://www.instagram.com/studio.koevoet/"
+    },
+    {
+        "name": "PosterLad",
+        "url": "https://www.instagram.com/posterlad/"
+    },
+    {
+        "name": "Mike Perry Studio",
+        "url": "https://www.instagram.com/mikeperrystudio/"
+    },
+    {
+        "name": "Pavlov Visuals",
+        "url": "https://www.instagram.com/pavlovvisuals/"
+    },
+    {
+        "name": "Rodrigo Corral",
+        "url": "https://www.instagram.com/rodrigocorral_/"
+    },
+    {
+        "name": "Neil A. Stevens",
+        "url": "https://www.instagram.com/neil_a_stevens/"
+    },
+    {
+        "name": "Bella Grace",
+        "url": "https://www.instagram.com/bellagrace/"
+    },
+    {
+        "name": "SG Posters",
+        "url": "https://www.instagram.com/sg_posters/"
+    },
+    {
+        "name": "Creative by Lucas",
+        "url": "https://www.instagram.com/creativebylucas/"
+    },
+    {
+        "name": "Dark Design PT",
+        "url": "https://www.instagram.com/darkdesignpt/"
+    },
+    {
+        "name": "Adam the Illustrator",
+        "url": "https://www.instagram.com/adam_theillustrator/"
+    },
+    {
+        "name": "Edgy Katrina",
+        "url": "https://www.instagram.com/edgykatrina/"
+    },
+    {
+        "name": "Chitt Co",
+        "url": "https://www.instagram.com/chittco/"
+    },
+    {
+        "name": "Planet People Studio",
+        "url": "https://www.instagram.com/planetpeoplestudio/"
+    },
+    {
+        "name": "Steve Harrington",
+        "url": "https://www.instagram.com/s_harrington/"
+    },
+    {
+        "name": "Rachel Ryle",
+        "url": "https://www.instagram.com/rachelryle/"
+    },
+    {
+        "name": "Mikey Burton",
+        "url": "https://www.instagram.com/mikeyburton/"
+    },
+    {
+        "name": "Melsys Illustrations",
+        "url": "https://www.instagram.com/melsysillustrations/"
+    },
+    {
+        "name": "Hey Studio",
+        "url": "https://www.instagram.com/heystudio/"
+    },
+    {
+        "name": "Nicholas Moegly",
+        "url": "https://www.instagram.com/nicholasmoegly/"
+    },
+    {
+        "name": "Timothy Goodman",
+        "url": "https://www.instagram.com/timothygoodman/"
+    },
+    {
+        "name": "Maztrone",
+        "url": "https://www.instagram.com/maztrone/"
+    },
+    {
+        "name": "Jessica Walsh",
+        "url": "https://www.instagram.com/jessicavwalsh/"
+    },
+    {
+        "name": "Graphic of the Day",
+        "url": "https://www.instagram.com/graphicoftheday/"
+    },
+    {
+        "name": "Creativ Room",
+        "url": "https://www.instagram.com/creativroom/"
+    },
+    {
+        "name": "Graphic Design Community",
+        "url": "https://www.instagram.com/graphicdesigncommunity/"
+    },
+    {
+        "name": "Supply and Design",
+        "url": "https://www.instagram.com/supplyanddesign/"
+    },
+    {
+        "name": "ZEKA Design",
+        "url": "https://www.instagram.com/zeka_design/"
+    },
+    {
+        "name": "Typographic Posters",
+        "url": "https://www.instagram.com/typographicposters/"
+    },
+    {
+        "name": "Bellman Agency",
+        "url": "https://www.instagram.com/bellmanagency/"
+    },
+    {
+        "name": "Marka Works",
+        "url": "https://www.instagram.com/markaworks/"
+    },
+    {
+        "name": "Pink Pony Creative",
+        "url": "https://www.instagram.com/pinkponycreative/"
+    },
+    {
+        "name": "Red Antler",
+        "url": "https://www.instagram.com/redantler/"
+    },
+    {
+        "name": "AKQA",
+        "url": "https://www.instagram.com/akqa/"
+    },
+    {
+        "name": "Ramotion",
+        "url": "https://www.instagram.com/ramotion/"
+    },
+    {
+        "name": "We Are Foreal",
+        "url": "https://www.instagram.com/weareforeal/"
+    },
+    {
+        "name": "Design Plus Magazine",
+        "url": "https://www.instagram.com/designplusmag/"
+    },
+    {
+        "name": "Allan Peters",
+        "url": "https://www.instagram.com/allanpeters/"
+    },
+    {
+        "name": "Type Goodness",
+        "url": "https://www.instagram.com/typegoodness/"
+    },
+    {
+        "name": "Nicogs Collection",
+        "url": "https://www.instagram.com/nicogscollection/"
+    },
+    {
+        "name": "Grafik",
+        "url": "https://www.instagram.com/grafik.media/"
+    },
+    {
+        "name": "Designspective",
+        "url": "https://www.instagram.com/designspective/"
+    },
+    {
+        "name": "People of Print",
+        "url": "https://www.instagram.com/peopleofprint/"
+    },
+    {
+        "name": "Block Void",
+        "url": "https://www.instagram.com/blockvoid/"
+    },
+    {
+        "name": "Project 78 Graphics",
+        "url": "https://www.instagram.com/project78graphics/"
+    },
+    {
+        "name": "Aristov Design",
+        "url": "https://www.instagram.com/aristov_design/"
+    },
+    {
+        "name": "Brodie Kaman",
+        "url": "https://www.instagram.com/brodie_kaman/"
+    },
+    {
+        "name": "Safe Haven HQ",
+        "url": "https://www.instagram.com/safehaven_hq/"
+    },
+    {
+        "name": "Anorak Mag",
+        "url": "https://www.instagram.com/anorakmag/"
+    },
+    {
+        "name": "Starbucks",
+        "url": "https://www.instagram.com/starbucks/"
+    },
+    {
+        "name": "Coca-Cola",
+        "url": "https://www.instagram.com/cocacola/"
+    },
+    {
+        "name": "McDonald's",
+        "url": "https://www.instagram.com/mcdonalds/"
+    },
+    {
+        "name": "Burger King",
+        "url": "https://www.instagram.com/burgerking/"
+    },
+    {
+        "name": "Google",
+        "url": "https://www.instagram.com/google/"
+    },
+    {
+        "name": "Microsoft",
+        "url": "https://www.instagram.com/microsoft/"
+    },
+    {
+        "name": "Sony",
+        "url": "https://www.instagram.com/sony/"
+    },
+    {
+        "name": "PlayStation",
+        "url": "https://www.instagram.com/playstation/"
+    },
+    {
+        "name": "Xbox",
+        "url": "https://www.instagram.com/xbox/"
+    },
+    {
+        "name": "Supreme",
+        "url": "https://www.instagram.com/supremenewyork/"
+    },
+    {
+        "name": "Gucci",
+        "url": "https://www.instagram.com/gucci/"
+    },
+    {
+        "name": "Louis Vuitton",
+        "url": "https://www.instagram.com/louisvuitton/"
+    },
+    {
+        "name": "Prada",
+        "url": "https://www.instagram.com/prada/"
+    },
+    {
+        "name": "Balenciaga",
+        "url": "https://www.instagram.com/balenciaga/"
+    },
+    {
+        "name": "Zara",
+        "url": "https://www.instagram.com/zara/"
+    },
+    {
+        "name": "H&M",
+        "url": "https://www.instagram.com/hm/"
+    },
+    {
+        "name": "Uniqlo",
+        "url": "https://www.instagram.com/uniqlo/"
+    },
+    {
+        "name": "IKEA",
+        "url": "https://www.instagram.com/ikea/"
+    },
+    {
+        "name": "LEGO",
+        "url": "https://www.instagram.com/lego/"
+    },
+    {
+        "name": "Marvel",
+        "url": "https://www.instagram.com/marvel/"
+    },
+    {
+        "name": "DC Comics",
+        "url": "https://www.instagram.com/dccomics/"
+    },
+    {
+        "name": "Star Wars",
+        "url": "https://www.instagram.com/starwars/"
+    },
+    {
+        "name": "Disney",
+        "url": "https://www.instagram.com/disney/"
+    },
+    {
+        "name": "Pixar",
+        "url": "https://www.instagram.com/pixar/"
+    },
+    {
+        "name": "NASA",
+        "url": "https://www.instagram.com/nasa/"
+    },
+    {
+        "name": "National Geographic",
+        "url": "https://www.instagram.com/natgeo/"
+    },
+    {
+        "name": "Muji",
+        "url": "https://www.instagram.com/muji_global/"
+    },
+    {
+        "name": "Porsche",
+        "url": "https://www.instagram.com/porsche/"
+    },
+    {
+        "name": "BMW",
+        "url": "https://www.instagram.com/bmw/"
+    },
+    {
+        "name": "Mercedes-Benz",
+        "url": "https://www.instagram.com/mercedesbenz/"
+    },
+    {
+        "name": "Tesla",
+        "url": "https://www.instagram.com/teslamotors/"
+    },
+    {
+        "name": "Samsung",
+        "url": "https://www.instagram.com/samsung/"
+    },
+    {
+        "name": "Intel",
+        "url": "https://www.instagram.com/intel/"
+    },
+    {
+        "name": "Adobe",
+        "url": "https://www.instagram.com/adobe/"
+    },
+    {
+        "name": "Figma",
+        "url": "https://www.instagram.com/figma/"
+    },
+    {
+        "name": "Canva",
+        "url": "https://www.instagram.com/canva/"
+    }
 ]

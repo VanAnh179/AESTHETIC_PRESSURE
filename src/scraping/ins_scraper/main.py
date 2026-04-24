@@ -463,8 +463,7 @@ def scrape_page(cl, username, page_name):
             "username": username,
             "hashtags": hashtags,
             "comments": [
-                {"text": str(c.text or ""), "user": str(getattr(c, 'user', {}))}
-                for c in comments
+                str(c.text or "") for c in comments
             ] if comments else []
         }
 
