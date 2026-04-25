@@ -1,0 +1,976 @@
+{
+  "campaigns": [
+    {
+      "id": "lovito_barbie_2026",
+      "brand": "Lovito",
+      "image" : "https://down-vn.img.susercontent.com/file/vn-11134258-81ztc-mn9rysjbdm2s2f@resize_w1920_nl.webp",
+      "collection_url": "https://shopee.vn/m/Barbie-Lovito",
+      "campaign_name": "Banner Barbie Collection"
+    },
+    {
+      "id": "lovito_summer_2026",
+      "brand": "Lovito",
+      "image" : "https://down-bs-vn.img.susercontent.com/cn-11134210-820l4-mmfkk9jwh3i9e4.webp",
+      "collection_url": "https://shopee.vn/lovito.vn?page=0#product_list",
+      "campaign_name": "Banner Mùa Hè"
+    },
+    {
+      "id": "cocoon_come_to_french",
+      "brand": "Cocoon",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn5lrofogyrped.webp",
+      "collection_url": "https://shopee.vn/cocoonvietnamofficial",
+      "campaign_name": "Cocoon with French"
+    },
+    {
+    "id": "Paulas_choice",
+      "brand": "Paulas_choice",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mna94ecntgjl2c.webp",
+      "collection_url": "https://shopee.vn/paulaschoice_vietnam",
+      "campaign_name": "Paulas Choice"
+    },
+    {
+    "id": "Yody",
+      "brand": "Yody",
+      "image" : "https://down-zl-vn.img.susercontent.com/vn-11134210-81ztc-mn14ozd6nimd9b.webp",
+      "collection_url": "https://shopee.vn/yody.official?shopCollection=269398262#product_list",
+      "campaign_name": "Yody"
+    },
+    {
+    "id": "Bemine",
+      "brand": "Bemine",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn1668oibpj90e.webp",
+      "collection_url": "https://shopee.vn/bemine_shop",
+      "campaign_name": "Bemine"
+    },
+    {
+    "id": "Big size Cô nhỏ",
+      "brand": "Big size Cô nhỏ",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-7ra0g-m84nsfegcqyq05.webp",
+      "collection_url": "https://shopee.vn/conho.bigsize",
+      "campaign_name": "Big size Cô nhỏ"
+    },
+    {
+    "id": "4lova4eva",
+      "brand": "4lova4eva",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn1ag94xxxc2e9.webp",
+      "collection_url": "https://shopee.vn/4lova4eva",
+      "campaign_name": "4lova4eva"
+    },
+    {
+    "id": "Libe",
+      "brand": "Libe",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn6jlsxvmzgme7.webp",
+      "collection_url": "https://shopee.vn/libeworkshop?categoryId=100017&entryPoint=ShopByPDP&itemId=57858059583&upstream=search",
+      "campaign_name": "Libe"
+    },
+    {
+    "id": "Bioderman",
+      "brand": "Bioderman",
+      "image" : "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmzvx9j212bo44.webp",
+      "collection_url": "https://shopee.vn/bioderma_officialstore",
+      "campaign_name": "Bioderman"
+    },
+    {
+      "id": "Colgate",
+      "brand": "Colgate",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mndrbv0l8kqq3b.webp",
+      "collection_url": "https://shopee.vn/colgate.palmolive_vietnam",
+      "campaign_name": "Colgate Super Brand Day"
+    },
+    {
+      "id": "Merzy",
+      "brand": "Merzy",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn0z9jhmb1tsf8.webp",
+      "collection_url": "https://shopee.vn/merzy.officialstore?entryPoint=ShopBySearch&searchKeyword=merzy"
+    },
+    {
+      "id": "Apple_Macbook_Air_Neon",
+      "brand": "Apple",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mms9wpgh94i0d2.webp",
+      "collection_url": "https://shopee.vn/apple_flagship_store?shopCollection=269593694#product_list",
+      "campaign_name": "Apple MacBook Air Neon"
+    },
+    {
+      "id": "Apple_Macbook_Air",
+      "brand": "Apple",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mms9wpghaj2gb3.webp",
+      "collection_url": "https://shopee.vn/apple_flagship_store?shopCollection=269594671#product_list",
+      "campaign_name": "Apple MacBook Air"
+    },
+    {
+      "id": "L'Oreal_Summer",
+      "brand": "L'Oreal",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmlbq2mgsef827.webp",
+      "collection_url": "https://shopee.vn/lorealparis_officialstore?shopCollection=104451446#product_list",
+      "campaign_name": "L'Oreal Summer"
+    },
+    {
+      "id": "L'Oreal_Deal",
+      "brand": "L'Oreal",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmlbqd7obe2u59.webp",
+      "collection_url": "https://shopee.vn/lorealparis_officialstore?shopCollection=104451446#product_list",
+      "campaign_name": "L'Oreal Deal"
+    },
+    {
+      "id": "Larocheposay_Deal",
+      "brand": "La Roche-Posay",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mncgdjtx4ky0b5.webp",
+      "collection_url": "https://shopee.vn/larocheposay_officialstore",
+      "campaign_name": "La Roche-Posay Deal"
+    },
+    {
+      "id": "Xiaomi_Camera",
+      "brand": "Xiaomi",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-ml1lvv336br853.webp",
+      "collection_url": "https://shopee.vn/xiaomiflagshipstore?shopCollection=267416727#product_list",
+      "campaign_name": "Xiaomi Camera"
+    },
+    {
+      "id": "Redmi_Watch",
+      "brand": "Redmi",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mlc46tzljshu55.webp",
+      "collection_url": "https://shopee.vn/paulaschoice_officialstore",
+      "campaign_name": "Redmi Watch"
+    },
+    {
+      "id": "Anessa_New",
+      "brand": "Anessa",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn8qvxxeedxh32.webp",
+      "collection_url": "https://shopee.vn/anessaofficialstore?shopCollection=250513248#product_list",
+      "campaign_name": "Anessa New"
+    },
+    {
+      "id": "Anessa_Night",
+      "brand": "Anessa",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn8qvxxeczd1ea.webp",
+      "collection_url": "https://shopee.vn/product/58411241/25131326183",
+      "campaign_name": "Adidas Night"
+    },
+    {
+      "id": "Puma_Deal",
+      "brand": "Puma",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mncbqmlf1qmd71.webp",
+      "collection_url": "https://shopee.vn/puma.cuahangchinhhang?shopCollection=259711063#product_list",
+      "campaign_name": "Puma Deal"
+    },
+    {
+      "id": "Puma_Essential",
+      "brand": "Puma",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmyrqrwxsx6w1b.webp",
+      "collection_url": "https://shopee.vn/puma.cuahangchinhhang?shopCollection=261147203#product_list",
+      "campaign_name": "Puma Essential"
+    },
+    {
+      "id": "Bitis_Summer",
+      "brand": "Bitis",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mml87mlc2mtecd.webp",
+      "collection_url": "https://shopee.vn/bitisvn?entryPoint=ShopBySearch&searchKeyword=bitis",
+      "campaign_name": "Bitis Summer"
+    },
+    {
+      "id": "Bitis_New",
+      "brand": "Bitis",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn6xyylg9og535.webp",
+      "collection_url": "https://shopee.vn/product/25211549/51254808076",
+      "campaign_name": "Bitis New"
+    },
+    {
+      "id": "Unilever_Deal",
+      "brand": "Unilever",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mlvsnwj82vib2f.webp",
+      "collection_url": "https://shopee.vn/unilever_beauty_wellbeing?entryPoint=ShopBySearch&searchKeyword=unilever",
+      "campaign_name": "Unilever Deal"
+    },
+    {
+      "id": "Nestle_Deal",
+      "brand": "Nestle",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mncbghj1301vf6.webp",
+      "collection_url": "https://shopee.vn/nestlenutritionvn?shopCollection=268757444#product_list",
+      "campaign_name": "Nestle Deal"
+    },
+    {
+      "id": "Nestle_Top",
+      "brand": "Nestle",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mncbghj1301y01.webp",
+      "collection_url": "https://shopee.vn/nestlenutritionvn?shopCollection=107212113#product_list",
+      "campaign_name": "Nestle Top"
+    },
+    {
+      "id": "Vinamilk_Deal",
+      "brand": "Vinamilk",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mmh7aheuq688e4_tn.webp",
+      "collection_url": "https://shopee.vn/vinamilk10tantrao?entryPoint=ShopBySearch&searchKeyword=vinamilk",
+      "campaign_name": "Vinamilk Deal"
+    },
+    {
+      "id": "Vinamilk_Top",
+      "brand": "Vinamilk",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mncbghj1301y01.webp",
+      "collection_url": "https://shopee.vn/vinamilk10tantrao?shopCollection=255278239#product_list",
+      "campaign_name": "Vinamilk Top"
+    },
+    {
+      "id": "Senka_New",
+      "brand": "Senka",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mmqb91cyc3r723_tn.webp",
+      "collection_url": "https://shopee.vn/product/27495213/2041024285",
+      "campaign_name": "Senka New"
+    },
+    {
+      "id": "Senka_Deal",
+      "brand": "Senka",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mmqb91cykj5v16_tn.webp",
+      "collection_url": "https://shopee.vn/senkavn?entryPoint=ShopBySearch&searchKeyword=senka",
+      "campaign_name": "Senka Deal"
+    },
+    {
+      "id": "Vichy_Deal",
+      "brand": "Vichy",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mn12ruqarc3m7d_tn.webp",
+      "collection_url": "https://shopee.vn/vichyofficialstore",
+      "campaign_name": "Vichy Deal"
+    },
+    {
+      "id": "Vichy_Products",
+      "brand": "Vichy",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-7r98o-lx6b55nuw34r6d_tn.webp",
+      "collection_url": "https://shopee.vn/vichyofficialstore?shopCollection=135815825#product_list",
+      "campaign_name": "Vichy Products"
+    },
+    {
+      "id": "Hadalabo_Combo",
+      "brand": "Hadalabo",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmbmerff9jwk98_tn.webp",
+      "collection_url": "https://shopee.vn/mall/search?keyword=acne&shop=95753434",
+      "campaign_name": "Hadalabo Combo"
+    },
+    {
+      "id": "Hadalabo_Combo_Brightlight",
+      "brand": "Hadalabo",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-ml7og9qjgnwjf9_tn.webp",
+      "collection_url": "https://shopee.vn/mall/search?keyword=tranexamic&shop=95753434",
+      "campaign_name": "Hadalabo Combo Brightlight"
+    }    ,
+    {
+      "id": "3CE_Color_Baker",
+      "brand": "3CE",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-ml7k16kctiq52f_tn.webp",
+      "collection_url": "https://shopee.vn/product/1362679168/47705832206",
+      "campaign_name": "3CE"
+    },
+    {
+      "id": "Romand_Deal",
+      "brand": "Romand",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmknt5lw2nlteb_tn.webp",
+      "collection_url": "https://shopee.vn/romand.officialstore?shopCollection=244905409#product_list",
+      "campaign_name": "Romand Deal"
+    },
+    {
+      "id": "Romand_New",
+      "brand": "Romand",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mlx86fg37ny98c_tn.webp",
+      "collection_url": "https://shopee.vn/product/590427230/53755566451",
+      "campaign_name": "Romand New"
+    },
+    {
+      "id": "DHC_Products",
+      "brand": "DHC",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mlep1o2wjhmo78_tn.webp",
+      "collection_url": "https://shopee.vn/dhc_officialstore?shopCollection=255132194#product_list",
+      "campaign_name": "DHC Products"
+    },
+    {
+      "id": "DHC_Vitamin_C",
+      "brand": "DHC",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmziz8lxsutgec_tn.webp",
+      "collection_url": "https://shopee.vn/dhc_officialstore?shopCollection=38653650#product_list",
+      "campaign_name": "DHC Vitamin C"
+    },
+    {
+      "id": "Estee_Lauder_Combo",
+      "brand": "Estee Lauder",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmieytx1mcxuae_tn.webp",
+      "collection_url": "https://shopee.vn/estee_lauder_official?shopCollection=253624695#product_list",
+      "campaign_name": "Estee Lauder Combo"
+    },
+    {
+      "id": "Estee_Lauder_New",
+      "brand": "Estee Lauder",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-820l4-mf96w1j2ls7d12_tn.webp",
+      "collection_url": "https://shopee.vn/estee_lauder_official?shopCollection=253625168#product_list",
+      "campaign_name": "Estee Lauder New"
+    },
+    {
+      "id": "Guardian_Deal",
+      "brand": "Guardian HCM Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mncdhweoui9u39.webp",
+      "collection_url": "https://shopee.vn/guardian_officialstore?shopCollection=270521675",
+      "campaign_name": "Guardian Deal"
+    },
+    {
+      "id": "Guardian_Deal",
+      "brand": "Guardian HCM Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mk70ftkxryf6d9.webp",
+      "collection_url": "https://shopee.vn/guardian_officialstore?shopCollection=270521676",
+      "campaign_name": "Guardian Deal"
+    },
+    {
+      "id": "Maybelline_New_York_Deal",
+      "brand": "Maybelline New York Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mne1uf08g746d3.webp",
+      "collection_url": "https://shp.ee/hiunuqg",
+      "campaign_name": "Maybelline New York Deal"
+    },
+    {
+      "id": "Maybelline_New_York_Deal",
+      "brand": "Maybelline New York Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mne1uf065blse5.webp",
+      "collection_url": "https://shopee.vn/maybelline_officialstore?shopCollection=106223175",
+      "campaign_name": "Maybelline New York Deal"
+    },
+    {
+      "id": "The_Face_Shop_Deal",
+      "brand": "The Face Shop Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mnaveeyu00e99e.webp",
+      "collection_url": "https://shopee.vn/thefaceshop_officialstore?shopCollection=253469406",
+      "campaign_name": "The Face Shop Deal"
+    },
+    {
+      "id": "Coolmate_01",
+      "brand": "Coolmate Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn9htv8qk4xx1b.webp",
+      "collection_url": "https://shopee.vn/coolmate.vn?shopCollection=268870310",
+      "campaign_name": "Coolmate 01"
+    },
+    {
+      "id": "Coolmate_02",
+      "brand": "Coolmate Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmzuhnioq8zna3.webp",
+      "collection_url": "https://shopee.vn/coolmate.vn?shopCollection=268870310",
+      "campaign_name": "Coolmate 02"
+    },
+    {
+      "id": "Canifa_Deal",
+      "brand": "Canifa Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mne7r1htcq2sd4.webp",
+      "collection_url": "https://shopee.vn/canifa_official?shopCollection=267998740",
+      "campaign_name": "Canifa Deal"
+    },
+    {
+      "id": "Juno_Deal",
+      "brand": "Juno Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmvk29ofa0hw47.webp",
+      "collection_url": "https://shopee.vn/juno.officialstore?shopCollection=250890685",
+      "campaign_name": "Juno Deal"
+    },
+    {
+      "id": "Juno_Deal",
+      "brand": "Juno Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmvkfs4qap6p33.webp",
+      "collection_url": "https://shopee.vn/juno.officialstore?shopCollection=250890685",
+      "campaign_name": "Juno Deal"
+    },
+    {
+      "id": "Vascara_Deal",
+      "brand": "Vascara Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mncqiqn1erk58b.webp",
+      "collection_url": "https://shopee.vn/vascara.official?shopCollection=262147465",
+      "campaign_name": "Vascara Deal"
+    },
+    {
+      "id": "Sony_Deal",
+      "brand": "Sony Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-7r98o-lngxp59i7j7193.webp",
+      "collection_url": "https://shopee.vn/sony_official_store?shopCollection=42183967",
+      "campaign_name": "Sony Deal"
+    },
+    {
+      "id": "Sony_Deal",
+      "brand": "Sony Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-7r98o-lngxp59i8xrh5e.webp",
+      "collection_url": "https://shopee.vn/sony_official_store?shopCollection=15147345",
+      "campaign_name": "Sony Deal"
+    },
+    {
+      "id": "Huggies_Deal",
+      "brand": "Huggies Official Store",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-81ztc-mnb4sshc85xk95.webp",
+      "collection_url": "https://shopee.vn/huggies_officialstore?shopCollection=254880011",
+      "campaign_name": "Huggies Deal"
+    },
+    {
+      "id": "Bobby_Deal",
+      "brand": "Bobby Official Store",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-81ztc-mne0qwr0edjcd9.webp",
+      "collection_url": "https://shopee.vn/bobby_officialstore?shopCollection=245497667",
+      "campaign_name": "Bobby Deal"
+    },
+    {
+      "id": "L_Occitane_01",
+      "brand": "L'Occitane Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmnyn6hoi3uw62.webp",
+      "collection_url": "https://shopee.vn/loccitane_vietnam?shopCollection=262795874",
+      "campaign_name": "L'Occitane 01"
+    },
+    {
+      "id": "L_Occitane_02",
+      "brand": "L'Occitane Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmluluym8u0ybf.webp",
+      "collection_url": "https://shopee.vn/loccitane_vietnam?shopCollection=13348826",
+      "campaign_name": "L'Occitane 02"
+    },
+    {
+      "id": "Sulwhasoo_Deal",
+      "brand": "Sulwhasoo Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn8sivo809hk88.webp",
+      "collection_url": "https://shopee.vn/sulwhasoo_official_store?shopCollection=122420498",
+      "campaign_name": "Sulwhasoo Deal"
+    },
+    {
+      "id": "Sulwhasoo_Deal",
+      "brand": "Sulwhasoo Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn8sivo81o2084.webp",
+      "collection_url": "https://shopee.vn/sulwhasoo_official_store?shopCollection=122420498",
+      "campaign_name": "Sulwhasoo Deal"
+    },
+    {
+      "id": "AHC_Deal",
+      "brand": "AHC Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mllnopxga5u7fc.webp",
+      "collection_url": "https://shopee.vn/ahc_officialstore?shopCollection=257767511",
+      "campaign_name": "AHC Deal"
+    },
+    {
+      "id": "AHC_Deal",
+      "brand": "AHC Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mllnopxhoq9s97.webp",
+      "collection_url": "https://shopee.vn/ahc_officialstore?shopCollection=257767511",
+      "campaign_name": "AHC Deal"
+    },
+    {
+      "id": "Naruko_Deal",
+      "brand": "Naruko Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/7b6474db1ce669daa7ec246168ddddcd.webp",
+      "collection_url": "https://shopee.vn/naruko_officialstore?shopCollection=12894923",
+      "campaign_name": "Naruko Deal"
+    },
+    {
+      "id": "Naruko_Deal",
+      "brand": "Naruko Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/1588b115434fa1d52edf01ab0f7cc0fa.webp",
+      "collection_url": "https://shopee.vn/naruko_officialstore?shopCollection=12894696",
+      "campaign_name": "Naruko Deal"
+    },
+    {
+      "id": "Couple_TX_01",
+      "brand": "Couple TX Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmn6fpan9ma767.webp",
+      "collection_url": "https://shopee.vn/couple_tx?shopCollection=156397171",
+      "campaign_name": "Couple TX 01"
+    },
+    {
+      "id": "Biti_s_01",
+      "brand": "Biti's Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmqyd89t0cg528.webp",
+      "collection_url": "https://shopee.vn/search?evcode=QklUSUc0TA%3D%3D&preSource=shop&promotionId=1383930012012544&signature=b1a982f1b70b4ea6bd06236acb55398ea9b808ef50f9a1346a2731eed2190a22",
+      "campaign_name": "Biti's 01"
+    },
+    {
+      "id": "Puma_01",
+      "brand": "Puma Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mncbqmlf1qmd71.webp",
+      "collection_url": "https://shopee.vn/puma.cuahangchinhhang?shopCollection=259711063",
+      "campaign_name": "Puma 01"
+    },
+    {
+      "id": "Puma_Deal",
+      "brand": "Puma Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-ml7beqhqrksie2.webp",
+      "collection_url": "https://shp.ee/7xyinlsm",
+      "campaign_name": "Puma Deal"
+    },
+    {
+      "id": "Tenda_Deal",
+      "brand": "Tenda Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-7r98o-lmqwntnl4xcv04.webp",
+      "collection_url": "https://shopee.vn/tenda_official_store?shopCollection=100360022",
+      "campaign_name": "Tenda Deal"
+    },
+    {
+      "id": "Tenda_Deal",
+      "brand": "Tenda Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-7r98o-lmqwntnl6bxb8c.webp",
+      "collection_url": "https://shopee.vn/tenda_official_store?shopCollection=23941895",
+      "campaign_name": "Tenda Deal"
+    },
+    {
+      "id": "Dreame_Deal",
+      "brand": "Dreame Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mnav01xsa3gj03.webp",
+      "collection_url": "https://shopee.vn/dreame_official_store?shopCollection=256042864",
+      "campaign_name": "Dreame Deal"
+    },
+    {
+      "id": "Dreame_Deal",
+      "brand": "Dreame Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mnav01xscwlfb6.webp",
+      "collection_url": "https://shopee.vn/dreame_official_store?shopCollection=256042864",
+      "campaign_name": "Dreame Deal"
+    },
+    {
+      "id": "Trung_Nguyen_Legend_Deal",
+      "brand": "Trung Nguyen Legend Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-7ras8-m5020fx5m69ie2.webp",
+      "collection_url": "https://shopee.vn/trungnguyenlegend_official?shopCollection=16677421",
+      "campaign_name": "Trung Nguyen Legend Deal"
+    },
+    {
+      "id": "Trung_Nguyen_Legend_Deal",
+      "brand": "Trung Nguyen Legend Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-7ras8-m5020fx5hys791.webp",
+      "collection_url": "https://shopee.vn/trungnguyenlegend_official?shopCollection=16377983",
+      "campaign_name": "Trung Nguyen Legend Deal"
+    },
+    {
+      "id": "Aptamil_Deal",
+      "brand": "Aptamil Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmloga9ew2rn78.webp",
+      "collection_url": "https://shopee.vn/aptamil_official_store?shopCollection=251752591",
+      "campaign_name": "Aptamil Deal"
+    },
+    {
+      "id": "Aptamil_Deal",
+      "brand": "Aptamil Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mlhi0f86fojo7d.webp",
+      "collection_url": "https://shopee.vn/aptamil_official_store?shopCollection=250232237",
+      "campaign_name": "Aptamil Deal"
+    },
+    {
+      "id": "Merries_Deal",
+      "brand": "Merries Official Store",
+      "image": "https://down-zl-vn.img.susercontent.com/vn-11134210-7ras8-m20e2fqm2xej28_tn.webp",
+      "collection_url": "https://shopee.vn/merries_official_store?shopCollection=247790997",
+      "campaign_name": "Merries Deal"
+    },
+    {
+      "id": "Merries_Deal",
+      "brand": "Merries Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-7ras8-m4r4ye3qpu4v92.webp",
+      "collection_url": "https://shopee.vn/merries_official_store?shopCollection=247791030",
+      "campaign_name": "Merries Deal"
+    },
+    {
+      "id": "Angel_Eye",
+      "brand": "Angel Eyes",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmfkzpsklcsiec_tn.webp",
+      "collection_url": "https://shopee.vn/angeleyes_officialstore?entryPoint=ShopBySearch&searchKeyword=angel%20eyes&sp_payload=1b04700c-e302-4b31-b37e-685d1d9c2fff",
+      "campaign_name": "Angel Eyes"
+    },
+    {
+      "id": "Sensodyne_01",
+      "brand": "Sensodyne",
+      "image": "https://down-ws-vn.img.susercontent.com/vn-11134210-820l4-miwqkccdww7a25.webp",
+      "collection_url": "https://shopee.vn/centrum_sensodyne?shopCollection=258463757",
+      "campaign_name": "Sensodyne 01"
+    },
+    {
+      "id": "Sensodyne_02",
+      "brand": "Sensodyne",
+      "image": "https://down-ws-vn.img.susercontent.com/vn-11134210-81ztc-mklvhu3viwhu16.webp",
+      "collection_url": "https://shopee.vn/universal-link/shop/137252616?tab=8&source=30&fromSection=membership_social_link",
+      "campaign_name": "Sensodyne 02"
+    },
+    {
+      "id": "Some_By_Mi_01",
+      "brand": "Some By Mi",
+      "image": "https://down-ws-vn.img.susercontent.com/sg-11134210-81zu3-mn9b1vky9amc97.webp",
+      "collection_url": "https://shopee.vn/somebymi.vn?shopCollection=269864308",
+      "campaign_name": "Some By Mi 01"
+    },
+    {
+      "id": "The_Body_Shop_Deal",
+      "brand": "The Body Shop",
+      "image": "https://down-ws-vn.img.susercontent.com/vn-11134210-81ztc-mk53mtlap91ff1.webp",
+      "collection_url": "https://shopee.vn/thebodyshop.officialstore?shopCollection=266716226",
+      "campaign_name": "The Body Shop Deal"
+    },
+    {
+      "id": "The_Body_Shop_02",
+      "brand": "The Body Shop",
+      "image": "https://down-ws-vn.img.susercontent.com/vn-11134210-81ztc-mne602i9j7ye63.webp",
+      "collection_url": "https://shopee.vn/purchase-with-gifts/451034208616576/23084692434/",
+      "campaign_name": "The Body Shop 02"
+    },
+    {
+      "id": "Clinique_Deal",
+      "brand": "Clinique Official",
+      "image": "https://down-ws-vn.img.susercontent.com/vn-11134210-81ztc-mmgys27d4ikl18.webp",
+      "collection_url": "https://shopee.vn/clinique_official?shopCollection=253306340",
+      "campaign_name": "Clinique Deal"
+    },
+    {
+      "id": "M_A_C_Cosmetics_Deal",
+      "brand": "M.A.C Cosmetics",
+      "image": "https://down-ws-vn.img.susercontent.com/vn-11134210-81ztc-mn5w2c0fpq82df.webp",
+      "collection_url": "https://shopee.vn/mac_official_store?shopCollection=253363888",
+      "campaign_name": "M.A.C Cosmetics Deal"
+    },
+    {
+      "id": "M_A_C_Cosmetics_Deal",
+      "brand": "M.A.C Cosmetics",
+      "image": "https://down-ws-vn.img.susercontent.com/vn-11134210-81ztc-mlg8tktv67t14e.webp",
+      "collection_url": "https://shopee.vn/mac_official_store?shopCollection=253363888",
+      "campaign_name": "M.A.C Cosmetics Deal"
+    },
+    {
+      "id": "NARS_01",
+      "brand": "NARS",
+      "image": "https://down-ws-vn.img.susercontent.com/vn-11134210-81ztc-mndrpt4lea6d46.webp",
+      "collection_url": "https://shopee.vn/nars_store?shopCollection=264890180",
+      "campaign_name": "NARS 01"
+    },
+    {
+      "id": "NARS_02",
+      "brand": "NARS",
+      "image": "https://down-ws-vn.img.susercontent.com/vn-11134210-81ztc-mndrpt4h0ykga8.webp",
+      "collection_url": "https://shopee.vn/nars_store?shopCollection=270496025",
+      "campaign_name": "NARS 02"
+    },
+    {
+      "id": "Clarins_01",
+      "brand": "Clarins Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mlob2l1ks1s182.webp",
+      "collection_url": "https://shopee.vn/clarins_vn?shopCollection=256606010",
+      "campaign_name": "Clarins 01"
+    },
+    {
+      "id": "Avene_Deal",
+      "brand": "Avene Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-7ras8-m50arkf2fpa079.webp",
+      "collection_url": "https://shopee.vn/avene.officialstore?shopCollection=255274765",
+      "campaign_name": "Avene Deal"
+    },
+    {
+      "id": "Silkygirl_Deal",
+      "brand": "Silkygirl Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mncc466ugqgzef.webp",
+      "collection_url": "https://shopee.vn/silkygirlvietnam_officialstore?shopCollection=115648062",
+      "campaign_name": "Silkygirl Deal"
+    },    
+    {
+      "id": "IDeverRAY_Summer",
+      "brand": "IDeverRAY",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmzzdufz37k5df.webp",
+      "collection_url": "https://shopee.vn/ideverray.vn?entryPoint=ShopBySearch&searchKeyword=dirty%20coins",
+      "campaign_name": "IDeverRAY Summer"
+    },
+    {
+      "id": "Torriden_Combo",
+      "brand": "Torriden",
+      "image": "https://down-bs-vn.img.susercontent.com/sg-11134210-820li-mnctm9lu9amdfe_tn.webp",
+      "collection_url": "https://shopee.vn/purchase-with-gifts/451015636234489/29911159728/436346871",
+      "campaign_name": "Torriden Combo"
+    },
+    {
+      "id": "Sun_Play",
+      "brand": "Sun Play",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmbnomcg2oeb97_tn.webp",
+      "collection_url": "https://shopee.vn/sunplay.officialstore",
+      "campaign_name": "Sun Play"
+    },
+    {
+      "id": "Sun_Play_Combo",
+      "brand": "Sun Play",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmbnomci6j291c_tn.webp",
+      "collection_url": "https://shopee.vn/mall/search?keyword=tone%20up&shop=138781248",
+      "campaign_name": "Sun Play Combo"
+    },
+    {
+      "id": "Wonjin",
+      "brand": "Wonjin",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mkie3vnolr0j9a_tn.webp",
+      "collection_url": "https://shopee.vn/dr.wonjin_official_store",
+      "campaign_name": "Wonjin"
+    },    
+    {
+      "id": "Teelab",
+      "brand": "Teelab",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-820l4-mh5w5m3th79rd9_tn.webp",
+      "collection_url": "https://shopee.vn/teelab_official?entryPoint=ShopBySearch&searchKeyword=teelab",
+      "campaign_name": "Teelab"
+    },
+    {
+      "id": "Vera_Deal",
+      "brand": "Vera",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-81ztc-mmlm5yxej9c584_tn.webp",
+      "collection_url": "https://shopee.vn/sonkimmode",
+      "campaign_name": "Vera Deal"
+    },
+    {
+      "id": "Vera_Chipu",
+      "brand": "Vera",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-81ztc-mlfxa4wfiqyrff_tn.webp",
+      "collection_url": "https://shopee.vn/sonkimmode?shopCollection=261348032#product_list",
+      "campaign_name": "Vera Chipu"
+    },
+    {
+      "id": "Icon_Denim_Deal",
+      "brand": "Torriden",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-81ztc-mnf9iod03r43f2_tn.webp",
+      "collection_url": "https://shopee.vn/icon_denim?entryPoint=ShopBySearch&searchKeyword=dickies",
+      "campaign_name": "Icon Denim Deal" 
+    },
+    {
+      "id": "Fit_Me_Combo",
+      "brand": "Fit Me",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-81ztc-ml5xhpouw9vl26_tn.webp",
+      "collection_url": "https://shopee.vn/fitme_official?shopCollection=267834046#product_list",
+      "campaign_name": "Fit Me Combo"
+    },
+    {
+      "id": "Fit_Me_New",
+      "brand": "Fit Me",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-820l4-mjdk13tiklj571_tn.webp",
+      "collection_url": "https://shopee.vn/fitme_official?shopCollection=265951655#product_list",
+      "campaign_name": "Fit Me New"
+    },
+    {
+      "id": "Levi's_VN",
+      "brand": "Levi's VN",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-7ra0g-m6xernumf41k34_tn.webp",
+      "collection_url": "https://shopee.vn/levis.online?shopCollection=253117221#product_list",
+      "campaign_name": "Levi's VN"
+    },
+    {
+      "id": "Levi's_VN_Women",
+      "brand": "Levi's VN",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-7ra0g-m6xernum3viw32_tn.webp",
+      "collection_url": "https://shopee.vn/levis.online?shopCollection=257101388#product_list",
+      "campaign_name": "Levi's VN Women"
+    }    ,
+    {
+      "id": "Gepo_Deal",
+      "brand": "Gego",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-23010-rgvpaxpvd3lv8a_tn.webp",
+      "collection_url": "https://shopee.vn/gepo.vn#product_list",
+      "campaign_name": "Gego Deal"
+    },
+    {
+      "id": "Gepo_Hot",
+      "brand": "Gego",
+      "image": "https://down-cvs-vn.img.susercontent.com/e0820208e148b2a9fb1c9f8545b59d9c_tn.webp",
+      "collection_url": "https://shopee.vn/gepo.vn?shopCollection=108154238#product_list",
+      "campaign_name": "Gego Hot"
+    },
+    {
+      "id": "Gumac",
+      "brand": "Gumac",
+      "image": "https://down-cvs-vn.img.susercontent.com/vn-11134210-81ztc-mmh7yqzp2figfb_tn.webp",
+      "collection_url": "https://shopee.vn/gumac_fashion?entryPoint=ShopBySearch&searchKeyword=gumac",
+      "campaign_name": "Gumac"
+    },
+    {
+      "id": "Routine_Sale",
+      "brand": "Routine",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mnehcw7myo0175_tn.webp",
+      "collection_url": "https://shopee.vn/routinevn?shopCollection=269220222#product_list",
+      "campaign_name": "Routine Sale"
+    },
+    {
+      "id": "Routine_Woman",
+      "brand": "Routine",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmb6xo91jgn960_tn.webp",
+      "collection_url": "https://shopee.vn/routinevn?shopCollection=244786118#product_list",
+      "campaign_name": "Routine_Woman"
+    },
+    {
+      "id": "Monotalk_New",
+      "brand": "Monotalk",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn17gvxho8w656_tn.webp",
+      "collection_url": "https://shopee.vn/monotalkvn?categoryId=100017&entryPoint=ShopByPDP&itemId=11976193314&upstream=search%22",
+      "campaign_name": "Monotalk New"
+    },
+    {
+      "id": "Monotalk_Top_Collection",
+      "brand": "Monotalk",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mn17gvxkacxxd2_tn.webp",
+      "collection_url": "https://shopee.vn/monotalkvn?shopCollection=250210611#product_list",
+      "campaign_name": "Monotalk Top Collection"
+    },
+    {
+      "id": "Marc_Sale",
+      "brand": "Marc",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mk73clt711c2a4_tn.webp",
+      "collection_url": "https://shopee.vn/marc.fashion#product_list",
+      "campaign_name": "Marc Sale"
+    },
+    {
+      "id": "Decathlon_01",
+      "brand": "Decathlon Vietnam",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-7ra0g-m75hbr71dc4h7b.webp",
+      "collection_url": "https://shopee.vn/decathlon_vietnam?shopCollection=248197370",
+      "campaign_name": "Decathlon 01"
+    },
+    {
+      "id": "Decathlon_02",
+      "brand": "Decathlon Vietnam",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-7ra0g-m9iyid4khohwab.webp",
+      "collection_url": "https://shopee.vn/decathlon_vietnam?shopCollection=257559164",
+      "campaign_name": "Decathlon 02"
+    },
+    {
+      "id": "Skechers_Deal",
+      "brand": "Skechers Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mnfeghtf9q8527.webp",
+      "collection_url": "https://shopee.vn/skechers_official?shopCollection=260143736",
+      "campaign_name": "Skechers Deal"
+    },
+    {
+      "id": "Kaiwin_Play_To_Win_01",
+      "brand": "Kaiwin Play To Win",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mne7egxj91qe74.webp",
+      "collection_url": "https://shopee.vn/kaiwinplaytowin?shopCollection=262617792",
+      "campaign_name": "Kaiwin Play To Win 01"
+    },
+    {
+      "id": "Converse_Deal",
+      "brand": "Converse Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mndt7vdjs54y68.webp",
+      "collection_url": "https://shopee.vn/converse_vietnam",
+      "campaign_name": "Converse Deal"
+    },
+    {
+      "id": "Converse_Deal",
+      "brand": "Converse Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mndt7vdq7wug9d.webp",
+      "collection_url": "https://shopee.vn/converse_vietnam",
+      "campaign_name": "Converse Deal"
+    },
+    {
+      "id": "Skin1004",
+      "brand": "Skin1004 Official",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mims107mlptt12@resize_w640_nl.webp",
+      "collection_url": "https://shopee.vn/-SPLivexSkin1004-Kem-Ch%E1%BB%91ng-N%E1%BA%AFng-V%E1%BA%ADt-L%C3%AD-Skin1004-Madagascar-Centella-Air-Fit-Suncream-Plus-SPF50-PA-50ml-i.251295945.25302567601?extraParams=%7B%22display_model_id%22%3A207188624822%2C%22model_selection_logic%22%3A3%7D",
+      "campaign_name": "Skin1004"
+    },
+    {
+      "id": "Cosrx_01",
+      "brand": "Cosrx Official",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mmzvhchm36ywda.webp",
+      "collection_url": "https://shopee.vn/cosrx_vietnam?shopCollection=269896231",
+      "campaign_name": "Cosrx 01"
+    },
+    {
+      "id": "The_Body_Shop_Deal",
+      "brand": "The Body Shop",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mk53mtlap91ff1.webp",
+      "collection_url": "https://shopee.vn/thebodyshop.officialstore?shopCollection=266716226",
+      "campaign_name": "The Body Shop Deal"
+    },
+    {
+      "id": "The_Body_Shop_02",
+      "brand": "The Body Shop",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mne602i9j7ye63.webp",
+      "collection_url": "https://shopee.vn/purchase-with-gifts/451034208616576/23084692434/",
+      "campaign_name": "The Body Shop 02"
+    },
+    {
+      "id": "shu_uemura_01",
+      "brand": "shu uemura",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mn0ajn7g4l4wb1.webp",
+      "collection_url": "https://shopee.vn/product/1365465492/55907406715",
+      "campaign_name": "shu uemura 01"
+    },
+    {
+      "id": "shu_uemura_02",
+      "brand": "shu uemura",
+      "image": "https://down-tx-vn.img.susercontent.com/vn-11134210-81ztc-mn0ajn7g5zpccc.webp",
+      "collection_url": "https://shopee.vn/product/1365465492/55907406715",
+      "campaign_name": "shu uemura 02"
+    },
+    {
+      "id": "Vivo_New",
+      "brand": "Vivo",
+      "image": "https://down-zl-vn.img.susercontent.com/vn-11134210-81ztc-mlzvkp5zv9c13e_tn.webp",
+      "collection_url": "https://shopee.vn/product/525869765/53257298520",
+      "campaign_name": "Vivo New"
+    },
+    {
+      "id": "Florasis_Hoa_Tây_Tử",
+      "brand": "Florasis Hoa Tây Tử",
+      "image": "https://down-zl-vn.img.susercontent.com/cn-11134210-820l4-mn3pkpoocn455b_tn.webp",
+      "collection_url": "https://shopee.vn/product/499358118/11496560676",
+      "campaign_name": "Florasis Hoa Tây Tử "
+    },
+    {
+      "id": "Realme_01",
+      "brand": "Realme Official Store",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mid9losb8zd252@resize_w640_nl.webp",
+      "collection_url": "https://shopee.vn/%C4%90i%E1%BB%87n-tho%E1%BA%A1i-realme-C85-5G-RAM-8GB-ROM-256GB-m%C3%A0n-h%C3%ACnh-6.8-144Hz-Dimensity-6300-pin-7000mAh-s%E1%BA%A1c-nhanh-45W-i.1328208226.56353108853?extraParams=%7B%22display_model_id%22%3A430300406409%2C%22model_selection_logic%22%3A3%7D",
+      "campaign_name": "Realme 01"
+    },
+    {
+      "id": "Realme_02",
+      "brand": "Realme Official Store",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mmtut7b200eg10@resize_w640_nl.webp",
+      "collection_url": "https://shopee.vn/-T%E1%BA%B6NG-M%C3%81Y-C%E1%BA%A0O-R%C3%82U-%C4%90i%E1%BB%87n-tho%E1%BA%A1i-realme-C100-RAM-6GB-8GB-ROM-128GB-Pin-8000mAh-M%C3%A0n-H%C3%ACnh-120Hz-S%E1%BA%A1c-Nhanh-45W-i.1328208226.49758294163?extraParams=%7B%22display_model_id%22%3A370735625097%2C%22model_selection_logic%22%3A3%7D",
+      "campaign_name": "Realme 02"
+    },
+    {
+      "id": "MSI_01",
+      "brand": "MSI Official Store",
+      "image": "https://down-bs-vn.img.susercontent.com/vn-11134210-81ztc-mnfei04fssude1.webp",
+      "collection_url": "https://shopee.vn/msiecvietnam?shopCollection=244989445",
+      "campaign_name": "MSI 01"
+    },
+    {
+      "id": "MSI_02",
+      "brand": "MSI Official Store",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mm8skgm6794x36@resize_w640_nl.webp",
+      "collection_url": "https://shopee.vn/Handheld-MSI-Claw-AI-A2VM-079VN-(Intel-Core-Ultra-7-258V-32GB-DDR5-1TB-SSD-8-FHD-120Hz)-i.966547245.57907688587?extraParams=%7B%22display_model_id%22%3A310684129779%2C%22model_selection_logic%22%3A3%7D",
+      "campaign_name": "MSI 02"
+    },
+    {
+      "id": "Popmartlocal_Deal",
+      "brand": "Popmartlocal",
+      "image": "https://down-zl-vn.img.susercontent.com/vn-11134210-81ztc-mlh6j7ct1af5a6_tn.webp",
+      "collection_url": "https://shopee.vn/popmart.vn",
+      "campaign_name": "Popmartlocal Deal"
+    },
+    {
+      "id": "Owen",
+      "brand": "Owen",
+      "image": "https://down-zl-vn.img.susercontent.com/vn-11134210-820l4-mg1xvl3im39l6f_tn.webp",
+      "collection_url": "https://shopee.vn/owenvietnamstore",
+      "campaign_name": "Owen"
+    },
+    {
+      "id": "3_Phần_Tư_Voucher",
+      "brand": "3PhầnTư",
+      "image": "https://down-zl-vn.img.susercontent.com/vn-11134210-81ztc-ml7v29lj6exbed_tn.webp",
+      "collection_url": "https://shopee.vn/search?evcode=M1BIQTQxMA%3D%3D&preSource=shop&promotionId=1366276597518336&signature=a43184577c509721e8e2b1527160490c8748ae094b30b0e5cca95acde9410a02",
+      "campaign_name": "3PhầnTư Voucher"
+    },
+    {
+      "id": "Carslan_Combo",
+      "brand": "Carslan",
+      "image": "https://down-bs-vn.img.susercontent.com/cn-11134210-820l4-mmh8rlx0dszpb3_tn.webp",
+      "collection_url": "https://shopee.vn/carslanofficial.vn?shopCollection=244869980#product_list",
+      "campaign_name": "Carslan Combo"
+    },
+    {
+      "id": "Carslan_Limited",
+      "brand": "Carslan",
+      "image": "https://down-vn.img.susercontent.com/file/cn-11134207-820l4-mn9thl7heewx3a@resize_w900_nl.webp",
+      "collection_url": "https://shopee.vn/Ph%E1%BA%A5n-N%C3%A9n-ki%E1%BB%81m-d%E1%BA%A7u-Carslan-Soft-Mist-24h-Ph%E1%BA%A5n-Ph%E1%BB%A7-trang-%C4%91i%E1%BB%83m-M%E1%BB%81m-M%E1%BA%A1i-L%C3%A2u-Tr%C3%B4i-8g-i.382964977.22877768884?extraParams=%7B%22display_model_id%22%3A157529441566%7D",
+      "campaign_name": "Carslan Limited"
+    },
+    {
+      "id": "Fudeshe",
+      "brand": "Fudeshe",
+      "image": "https://down-bs-vn.img.susercontent.com/cn-11134210-820l4-mj7wsajp22v87c_tn.webp",
+      "collection_url": "https://shopee.vn/meshop.vn?shopCollection=265986164#product_list",
+      "campaign_name": "Fudeshe"
+    }
+  ]
+}
