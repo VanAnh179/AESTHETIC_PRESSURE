@@ -2,6 +2,9 @@ requests>=2.28.0
 python-dotenv>=0.19.0
 instagrapi
 
+Pillow>=10.0.0
+tqdm>=4.65.0
+
 
 undetected-chromedriver==3.5.5   
 selenium==4.27.1               
