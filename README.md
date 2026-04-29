@@ -17,7 +17,7 @@ Aesthetic-Pressure-ML/
 │   ├── raw/                    # Dữ liệu thô vừa cào về
 │   │   ├── facebook/           # Chứa các folder của từng shop (gồm file json và ảnh đã tải về) + 1 file csv tổng hợp dữ liệu raw từ Facebook Ads (Vân Anh)
 │   │   ├── shopee/             # Chứa các folder của từng shop (gồm file json và ảnh đã tải về) + 1 file csv tổng hợp dữ liệu raw từ Shopee (Linh Khánh)
-│   │   └── instagram/          # Chứa các folder của từng shop (gồm file json và ảnh đã tải về) + 1 file csv tổng hợp dữ liệu raw từ Pinterest (Hà Ngọc)
+│   │   └── instagram/          # Chứa các folder của từng shop (gồm file json và ảnh đã tải về) + 1 file csv tổng hợp dữ liệu raw từ Pinterest (Vân Anh)
 │   ├── processed/              # Dữ liệu SAU KHI XỬ LÝ (Giai đoạn 2)
 │   │   ├── features_cv.csv     # Chỉ số toán học từ GĐ 2 (Shared)
 │   │   ├── labels_nlp.csv      # Nhãn áp lực từ GĐ 3 (Shared)
@@ -30,11 +30,11 @@ Aesthetic-Pressure-ML/
 │   ├── scraping/               # Module cào dữ liệu (GĐ 1)
 │   │   ├── fb_scraper/         # (Vân Anh)
 │   │   ├── shopee_scraper/     # (Linh Khánh)
-│   │   └── ins_scraper/        # (Hà Ngọc)
+│   │   └── ins_scraper/        # (Vân Anh)
 │   ├── features/               # Module xử lý ảnh OpenCV (GĐ 2)
 │   │   ├── edge_processor.py   # (Vân Anh)
 │   │   ├── color_processor.py  # (Linh Khánh)
-│   │   ├── text_processor.py   # (Hà Ngọc)
+│   │   ├── text_processor.py   # (Linh Khánh)
 │   │   └── compute_ap_scores.py # Tính AP thô + MinMax từ tương tác đa nguồn
 │   ├── sentiment/              # Module xử lý NLP (GĐ 3)
 │   │   ├── score_logic.py      # Tính AP Score (Vân Anh)
@@ -42,13 +42,13 @@ Aesthetic-Pressure-ML/
 │   └── models/                 # Module huấn luyện ML (GĐ 4)
 │       ├── random_forest.py    # (Vân Anh)
 │       ├── svm_knn.py          # (Linh Khánh)
-│       └── evaluation.py       # (Hà Ngọc)
+│       └── evaluation.py       # (Vân Anh & Linh Khánh)
 ├── models/                     # Lưu trữ model đã huấn luyện (.pkl)
 ├── reports/                    # Kết quả nghiên cứu (GĐ 5)
 │   ├── figures/                # Biểu đồ, Heatmap, Visualization (Linh Khánh)
 │   └── essay/                  # File nháp tiểu luận (Vân Anh & Team)
 ├── demo/                       # Sản phẩm cuối cùng
-│   └── app_predict.py          # Giao diện dự báo mẫu (Hà Ngọc)
+│   └── app_predict.py          # Giao diện dự báo mẫu (Linh Khánh)
 ├── .gitignore                  # Chặn các file rác, file ảnh nặng không cần thiết
 ├── README.md                   # Hướng dẫn dự án & Phân chia công việc
 └── requirements.txt            # Danh sách thư viện cần cài đặt (OpenCV, Pandas,...)
@@ -58,11 +58,10 @@ Aesthetic-Pressure-ML/
 ## 👥 Team Members
 * **Lê Vân Anh (Leader):** Chịu trách nhiệm Logic tổng, CV (Cạnh), Scraping FB và Model RF.
 * **Linh Khánh:** Chịu trách nhiệm NLP Sentiment, CV (Màu sắc), Scraping TMĐT và Model SVM/KNN.
-* **Hà Ngọc:** Chịu trách nhiệm CV (Chữ/Khoảng trắng), Scraping Social và Demo.
 
 ## 🚀 Quy trình làm việc trên Git (Workflow)
 Để tránh xung đột code, team thống nhất:
-1. **Branching:** Không push trực tiếp lên `main`. Mỗi người làm trên branch riêng: `vanh`, `linhkhanh`, `hangoc`.
+1. **Branching:** Không push trực tiếp lên `main`. Mỗi người làm trên branch riêng: `vanh`, `linhkhanh`.
 2. **Merging:** Sau khi hoàn thành một module, thông báo để Vanh duyệt trước khi merge vào `main`.
 3. **Commit Message:** Ghi rõ nội dung: `feat: add edge detection`, `fix: bug in nlp script`.
 
