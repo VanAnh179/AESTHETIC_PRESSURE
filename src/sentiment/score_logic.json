@@ -1,0 +1,97 @@
+{
+  "layout": {
+    "negative": {
+      "rối": 0.8, "roi": 0.8, "messy": 0.8,
+      "lộn_xộn": 0.9, "lx": 0.9, "cluttered": 0.9,
+      "ngợp": 1.0, "ngop": 1.0, "overwhelming": 1.0,
+      "bí_bách": 0.9, "bi_bach": 0.9, "stifling": 0.9,
+      "chồng_chéo": 0.8, "chong_cheo": 0.8, "overlapping": 0.8,
+      "loạn_xa": 0.9, "loan_xa": 0.9, "chaotic": 0.9,
+      "nát": 1.0, "nat": 1.0, "trash": 1.0, "wreck": 1.0,
+      "đặc_nghẹt": 1.0, "dac_nghet": 1.0, "cramped": 1.0,
+      "cồng_kềnh": 0.8, "cong_kenh": 0.8, "bulky": 0.8,
+      "lệch": 0.7, "lech": 0.7, "off_balance": 0.7,
+      "chật_chội": 0.9, "chat_choi": 0.9, "chật": 0.8
+    },
+    "positive": {
+      "tối_giản": -0.9, "toi_gian": -0.9, "minimalist": -0.9, "minimal": -0.8,
+      "thoáng": -0.9, "thoang": -0.9, "airy": -0.8,
+      "cân_đối": -0.8, "can_doi": -0.8, "balanced": -0.8,
+      "gọn": -0.7, "gon": -0.7, "tidy": -0.7,
+      "dễ_nhìn": -0.8, "de_nhin": -0.8, "clean": -0.8,
+      "hài_hòa": -0.8, "hai_hoa": -0.8, "harmonic": -0.8
+    }
+  },
+  "color": {
+    "negative": {
+      "lòe_loẹt": 0.9, "loe_loet": 0.9, "gaudy": 0.9,
+      "chói": 0.9, "choi": 0.9, "glaring": 0.9,
+      "phèn": 0.8, "phen": 0.8, "tacky": 0.8,
+      "sến": 0.8, "sen": 0.8, "cheesy": 0.8,
+      "tối": 0.6, "toi": 0.6, "dark": 0.6,
+      "nhạt": 0.5, "nhat": 0.5, "bland": 0.5,
+      "bẩn": 0.8, "ban": 0.8, "dirty": 0.8,
+      "mất_màu": 0.7, "mat_mau": 0.7, "discolored": 0.7
+    },
+    "positive": {
+      "sang": -0.6, "luxury": -0.7,
+      "nhã_nhặn": -0.7, "nha_nhan": -0.7, "elegant": -0.7,
+      "tươi": -0.5, "tuoi": -0.5, "vibrant": -0.5,
+      "nổi_bật": -0.6, "noi_bat": -0.6, "bold": -0.6,
+      "êm_mắt": -0.8, "em_mat": -0.8, "soothing": -0.8
+    }
+  },
+  "visual": {
+    "negative": {
+      "mờ": 0.8, "mo": 0.8, "blurry": 0.8,
+      "nhòe": 0.8, "nhoe": 0.8, "fuzzy": 0.8,
+      "vỡ_hình": 0.9, "vo_hinh": 0.9, "pixelated": 0.9,
+      "khó_nhìn": 0.8, "kho_nhin": 0.8, "hard_to_see": 0.8,
+      "buồn_nôn": 1.0, "buon_non": 1.0, "tởm": 1.0, "tom": 1.0, "nauseating": 1.0,
+      "cục_cứt": 1.0, "cuc_cut": 1.0, "như_cứt": 1.0, "nhu_cut": 1.0,
+      "rác_rưởi": 1.0, "rac_ruoi": 1.0, "garbage": 1.0, "trash": 1.0,
+      "chó_tha": 1.0,
+      ":clown_face:": 0.9,
+      ":face_vomiting:": 1.0,
+      ":nauseated_face:": 0.9,
+      ":pile_of_poo:": 1.0,
+      ":thumbs_down:": 0.8,
+      ":skull:": 0.9,
+      ":red_flag:": 0.8
+    },
+    "positive": {
+      "sắc_nét": -0.8, "sac_net": -0.8, "sharp": -0.7,
+      "bắt_mắt": -0.4, "bat_mat": -0.4, "eye-catching": -0.4,
+      "ấn_tượng": -0.4, "an_tuong": -0.4, "impressive": -0.4,
+      "chuyên_nghiệp": -0.6, "pro": -0.6,
+      "đẹp": -0.2, "dep": -0.2, "beautiful": -0.2,
+      "xinh": -0.2, "nice": -0.2,
+      "đỉnh": -0.3, "dinh": -0.3, "awesome": -0.3,
+      "mê": -0.3, "me": -0.3, 
+      "cuốn": -0.3, "cuon": -0.3, "captivating": -0.3,
+      "10đ": -0.5, "10_điểm": -0.5, "100đ": -0.5, "100_điểm": -0.5,
+      ":fire:": -0.2,
+      ":smiling_face_with_heart_eyes:": -0.2,
+      ":hundred_points:": -0.5,
+      ":sparkles:": -0.3,
+      ":thumbs_up:": -0.2,
+      ":red_heart:": -0.1,
+      ":clapping_hands:": -0.2
+    }
+  },
+  "text_info": {
+    "negative": {
+      "dày_chữ": 0.9, "day_chu": 0.9, "text_heavy": 0.9,
+      "dày_đặc": 1.0, "day_dac": 1.0, "dense": 0.9,
+      "khó_đọc": 1.0, "kho_doc": 1.0, "unreadable": 1.0,
+      "nhồi_nhét": 1.0, "nhoi_nhet": 1.0, "stuffed": 1.0,
+      "tạp_nham": 0.8, "tap_nham": 0.8, "confusing": 0.8,
+      "wot": 0.9, "wall_of_text": 0.9
+    },
+    "positive": {
+      "rõ_ràng": -0.8, "ro_rang": -0.8, "clear": -0.8,
+      "ngắn_gọn": -0.7, "ngan_gon": -0.7, "concise": -0.7,
+      "dễ_hiểu": -0.6, "de_hieu": -0.6, "easy_to_understand": -0.6
+    }
+  }
+}

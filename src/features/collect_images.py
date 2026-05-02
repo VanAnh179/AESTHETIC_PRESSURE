@@ -11,10 +11,6 @@ vào thư mục đích:
 Tên file GIỮ NGUYÊN như ban đầu.
 Nếu trùng tên thì thêm hậu tố _1, _2, ...
 
-Cách dùng:
-    python collect_images.py              # Sao chép (mặc định, an toàn)
-    python collect_images.py --dry-run    # Xem trước, KHÔNG copy thật
-    python collect_images.py --move       # Di chuyển thay vì copy
 """
 
 import argparse

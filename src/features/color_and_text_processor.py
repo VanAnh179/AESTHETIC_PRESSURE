@@ -3,15 +3,15 @@ color_processor.py
 ------------------
 Trích xuất 3 đặc trưng từ ảnh trong data/processed/image_processed/:
 
-    1. color_entropy      – Shannon Entropy trên histogram màu RGB 3D
+    1. color_entropy      Shannon Entropy trên histogram màu RGB 3D
                             Cao → màu phong phú/phân tán
                             Thấp → màu đơn điệu/tập trung
 
-    2. compression_ratio  – raw_pixel_bytes / actual_file_bytes
+    2. compression_ratio  raw_pixel_bytes / actual_file_bytes
                             Cao  → ảnh đơn giản, nén tốt
                             Thấp → ảnh phức tạp, nhiều chi tiết
 
-    3. text_area_ratio    – tổng diện tích vùng chữ / diện tích banner
+    3. text_area_ratio    tổng diện tích vùng chữ / diện tích banner
                             Đọc bounding boxes từ banner_visual_structure_and_ocr_extract.csv
                             (do module OCR của Vân Anh tạo ra), tính qua compute_text_area_ratio.
                             Ảnh không có chữ → 0.0
@@ -23,11 +23,6 @@ Trích xuất 3 đặc trưng từ ảnh trong data/processed/image_processed/:
 Đầu ra: data/processed/features_color_and_text.csv
     Cột: image_id, color_entropy, compression_ratio, text_area_ratio
 
-Cách dùng:
-    python color_processor.py
-    python color_processor.py --input   data/processed/image_processed
-    python color_processor.py --ocr-csv data/processed/banner_visual_structure_and_ocr_extract.csv
-    python color_processor.py --output  data/processed/features_color_and_text.csv
 """
 
 import argparse

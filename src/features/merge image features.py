@@ -24,14 +24,6 @@ Nguon:
 Dau ra:
     data/processed/image_extracted_features.csv
 
-Cach dung:
-    python merge_features.py
-    python merge_features.py --ocr    path/to/banner_visual_structure_and_ocr_extract.csv
-    python merge_features.py --color  path/to/features_color_and_text.csv
-    python merge_features.py --images path/to/image_processed
-    python merge_features.py --ap     path/to/interaction_ap_scores.csv
-    python merge_features.py --output path/to/image_extracted_features.csv
-    python merge_features.py --join inner
 """
 
 from __future__ import annotations
